@@ -1,0 +1,32 @@
+#container {
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.locations{
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.dates{
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.customerEmail{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    text-align: center;
+}
+
+.customerLocation{
+    text-transform: capitalize;
+}

@@ -433,5 +433,3 @@ const customers = [
         "nat": "US"
     }
 ];
-
-export default customers;
